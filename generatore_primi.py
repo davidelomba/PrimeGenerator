@@ -3,12 +3,12 @@ import random
 def inserisci_valori():
     while True:
         try:
-            bits_str = input("Inserisci il numero di bit del numero primo n: ")
+            bits_str = input("Enter the number of bits for the prime number n: ")
             bits = int(bits_str)
 
             break
         except ValueError:
-            print("Devi inserire un numero intero!")
+            print("You must enter an integer!")
 
     return bits
 def esponenziazione_veloce(a, e, n):
